@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Tech Business</title>
 
   <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="./src/styles/style.css">
+   <script src="./src/scripts/script.js"></script>
 </head>
 <body>
   <nav>
@@ -20,7 +21,7 @@
           <Link>News</Link>
         </li>
         <li>
-          <Link>About Us</Link>
+          <a href="blog.html">Blog</a>
         </li>
         <li>
           <Link>Contact us</Link>
@@ -44,6 +45,15 @@
       </div>
     </section>
 
+    <section>
+      <h2>Posts do blog</h2>
+      <div>
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <p id="loading">Carregando....</p>
+        <div id="posts-container"></div>
+      </div>
+    </section>
+
     <aside>
       <header>
         <h2>Lorem ipsum dolor sit amet Aside</h2>
@@ -60,7 +70,7 @@
     <fieldset>
       <legend>Contact Us</legend>
       <label>Name:</label><input class="" type="text"><br>
-      <label>Email:</label><input class="" type="password"><br>
+      <label>Email:</label><input class="" type="password" autocomplete="on"><br>
       <label>Message:</label><br><textarea class="" cols="35" rows="8"></textarea><br>
       <input class="b" type="submit" value="Enviar">
     </fieldset>
@@ -73,6 +83,5 @@
     </span>
   </footer>
   
-  <script src="./src/scripts/script.js"></script>
 </body>
 </html>
