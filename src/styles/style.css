@@ -19,7 +19,11 @@ li {
   display: none;
 }
 
-a, input[type="submit"] {
+.no-style {
+  text-decoration: none;
+}
+
+a:not(.no-style), input[type="submit"] {
   background-color: blue;
   color: #fff;
   padding: 10px 20px;
