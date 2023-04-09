@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../../assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+body {
+  padding: 15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hide {
+  display: none;
+}
+
+a, input[type="submit"] {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  opacity: 0.7;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+a:hover,
+input[type="submit"] {
+  opacity: 1;
+}
