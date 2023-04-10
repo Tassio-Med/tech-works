@@ -6,77 +6,134 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech Business</title>
 
-  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="./assets/images/logo-favicon.ico" type="image/x-icon"/>
   <link rel="stylesheet" href="./src/styles/style.css">
-   <script src="./src/scripts/script.js"></script>
+  <script src="./src/scripts/hamburguer.js"></script>
 </head>
 <body>
+
+
   <header>
-    <nav>
-      <div>
-        <h1>
-          <a class="not-style" href="">tm.</a>
-        </h1>
-        <ul>
-          <li>
-            <Link>Services</Link>
-          </li>
-          <li>
-            <a href="blog.html" class="no-style">Blog</a>
-          </li>
-          <li>
-            <Link>Contact us</Link>
-          </li>
-        </ul>
-      </div>
+    <nav class="nav-bar">
+ 
+        <a href="#hero" class="no-style">
+          <img src="./assets/images/logo.png" class="logo" alt="Logotipo da página">
+        </a>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#services" class="nav-link no-style">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link no-style">Contact Us</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link no-style"> Blog</a></li>
+            </ul>
+        </div>
+        <div class="login-button">
+            <button><a href="#" class="no-style">Login</a></button>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="./assets/images/menu.png" alt=""></button>
+        </div>
     </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#services" class="nav-link no-style">Projects</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link no-style">Contact Us</a></li>
+            <li class="nav-item"><a href="#blog.html" class="nav-link no-style">Blog</a></li>
+        </ul>
+
+        <div class="login-button">
+            <button><a href="#" class="no-style">Login</a></button>
+        </div>
+    </div>
   </header>
-  <main>
-    
-    <section>
-      <div>
-        <h3>Lorem ipsum dolor sit amet</h3>
+
+  <main class="home" id="hero">
+    <section class="hero">
+      <div class="container-text">
+        <h2 class="container-title">Lorem ipsum dolor sit amet</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus facilisis blandit. Sed cursus consequat enim, sed venenatis augue elementum eu.</p>
+        <br>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus facilisis blandit. Sed cursus consequat enim, sed venenatis augue elementum eu.</p>
+        <button id="home-button">See more</button>
       </div>
-      <img src="./assets/images/tech-team.png" alt="Equipe de desenvolvedores de software">
+      <img src="./assets/images/tech-team.png" alt="Equipe de desenvolvedores de software" class="container-img">
     </section>
-    <section>
-      <div>
-        <h3>Lorem ipsum dolor sit amet</h3>
+
+    <div class="hero" id="services">
+      <section id="grid-section">
+        <div class="grid1">
+          <img src="./assets/images/grid1.svg" alt="Mulher com quadro no fundo" class="grid-img">
+          <div class="container-text">
+            <h3 class="container-title">Lorem ipsum dolor sit amet</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus facilisis blandit. Sed cursus consequat enim, sed venenatis augue elementum eu.</p>
+          </div>
+        </div>
+        <div class="grid2">
+          <img src="./assets/images/grid2.svg" alt="Mulher com papel na mão" class="grid-img">
+          <div class="container-text">
+            <h3 class="container-title">Lorem ipsum dolor sit amet</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus facilisis blandit. Sed cursus consequat enim, sed venenatis augue elementum eu.</p>
+          </div>
+        </div>
+        <div class="grid3">
+          <img src="./assets/images/grid3.svg" alt="Homem com quadro no fundo" class="grid-img">
+          <div class="container-text">
+            <h3 class="container-title">Lorem ipsum dolor sit amet</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus facilisis blandit. Sed cursus consequat enim, sed venenatis augue elementum eu.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="hero hero2">
+      <img src="./assets/images/work-team.png" alt="Equipe de desenvolvedores de software" class="container-img">
+      <div >
+        <h2 class="container-title">Lorem ipsum dolor sit amet</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus facilisis blandit. Sed cursus consequat enim, sed venenatis augue elementum eu.</p>
+        <br>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus facilisis blandit. Sed cursus consequat enim, sed venenatis augue elementum eu.</p>
       </div>
-      <img src="./assets/images/Elements01.svg" alt="Equipe de desenvolvedores de software">
-    </section>
-    <section>
-      <div>
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus facilisis blandit. Sed cursus consequat enim, sed venenatis augue elementum eu.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus facilisis blandit. Sed cursus consequat enim, sed venenatis augue elementum eu.</p>
-      </div>
-      <img src="./assets/images/Elements02.svg" alt="Equipe de desenvolvedores de software">
     </section>
 
   </main>
 
-  <div>
-    <form autocomplete="off">
-      <fieldset>
+
+  <footer>
+
+    <div class="footer-contact">
+      <div class="social">
+        <h3>Connect with Us</h3>
+        <div class="social-icons">
+          <img class="media" src="assets/images/instagram.png" alt="Ícone do instagram">
+          <img class="media" src="assets/images/linkedin.png" alt="Ícone do Linkedin">
+          <img class="media" src="assets/images/tumblr.png" alt="Ícone do Tumblr">
+          <img class="media" src="assets/images/tiktok.png" alt="Ícone do Tiktok">
+          <img class="media" src="assets/images/youtube.png" alt=Ícone do YouTube"">
+          <img class="media" src="assets/images/facebook.png" alt="Ícone do Facebook">
+        </div>
+      </div>
+      
+      <form autocomplete="off" id="contact">
         <legend>Contact Us</legend>
-        <label>Name:</label><input class="" type="text"><br>
-        <label>Email:</label><input class="" type="password" autocomplete="on"><br>
-        <label>Message:</label><br><textarea class="" cols="35" rows="8"></textarea><br>
-        <input class="b" type="submit" value="Enviar">
-      </fieldset>
-    </form>
-    <footer >
-      <hr />
-      <span >
-        © 2022 <a class="no-style" href="https://www.linkedin.com/in/tassiomed98" target="_blank" rel="noreferrer">Tássio M.</a> All Rights Reserved.
-      </span>
-    </footer>
-  </div>
-  
+        <fieldset>
+          <div class="user">
+            <label>Name:</label><input class="" type="text"><br>
+            <label>Email:</label><input class="" type="password" autocomplete="on">
+            <label>City:</label><input class="" autocomplete="on"><br>
+          </div>
+          <div class="send-message">
+            <label>Message:</label><br><textarea class="" cols="35" rows="8"></textarea><br>
+            <input class="btn-form" type="submit" value="Send">
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+    <hr class="line"/>
+    <span>
+      © 2022 <a class="no-style linkedin" href="https://www.linkedin.com/in/tassiomed98" target="_blank" rel="noreferrer">Tássio M.</a> All Rights Reserved.
+    </span>
+
+  </footer>
 </body>
 </html>
