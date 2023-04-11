@@ -26,16 +26,16 @@ Por último há um footer com um formulário para contato e link das redes socia
 O footer foi configurado com o [FormSubmit](https://formsubmit.co/) uma plataforma que facilita o envio de mensangens a partir de um formulário para e-mail de destinatários.
 
 
-<div align="left">
+<div align="center">
   <!-- ![Drop Schema](assets/images/readme/blog.png) -->
 
-  <img src="assets/images/readme/tela_inicial.png" width="300px">
+  <img src="assets/images/readme/tela_inicial.png" width="600px">
 
 </div>
-<div align="right">
+<div align="center">
   <!-- ![Drop Schema](assets/images/readme/blog.png) -->
 
-  <img src="assets/images/readme/blog.png" width="300px">
+  <img src="assets/images/readme/blog.png" width="600px">
 
 </div>
 
