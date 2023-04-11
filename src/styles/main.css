@@ -1,0 +1,137 @@
+body {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  /* background-color: red; */
+  background-color: #28292f;
+}
+
+.hide {
+  display: none;
+}
+
+.no-style {
+  text-decoration: none;
+}
+
+a:not(.no-style), input[type="submit"]:not(btn-form) {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  opacity: 0.7;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+a:hover,
+input[type="submit"] {
+  opacity: 1;
+}
+
+main {
+  margin-top: 120px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  background-color: #28292f;
+}
+
+
+.hero {
+  margin: 0 auto;
+  max-width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #0187a7; */
+  padding: 1px 35px;
+  margin-bottom: 10px;
+  color: #fff;
+  
+}
+
+.hero2 {
+  box-shadow: 0px 3px 10px #141414;
+  margin-bottom: 80px;
+  transition: all 0.5s;
+}
+
+.hero2:hover {
+  box-shadow: 0px 3px 10px #141414;
+  margin-bottom: 80px;
+  transform: scale(1.03);
+}
+
+#home-button {
+  margin-top: 50px;
+  padding: 10px;
+  width: 80%;
+  font-size: large;
+  font-weight: bolder;
+  color: #fff;
+  background-color: #0187a7;;
+  border: none;
+  border-radius: 5px;
+}
+
+#home-button:hover {
+  background-color: #0186a7bc;
+}
+
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-title {
+  margin-bottom: 10px;
+  /* color: #0187a7; */
+}
+
+.container-img{
+  /* width: 40%; */
+  max-width: 50%;
+}
+
+
+/* GRID DE IMAGENS */
+
+
+.grid-img {
+  width: 80%;
+}
+
+#grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px 0;
+  place-items: center;
+}
+
+.grid1, .grid2, .grid3 {
+  width: 70%;
+  background-color: #24252a;
+  box-shadow: 0px 3px 10px #141414;
+  padding: 45px 20px;
+  text-align: center;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.grid1:hover, .grid2:hover, .grid3:hover {
+  transform: scale(1.05);
+}
+
