@@ -7,8 +7,10 @@
   <title>Tech Business</title>
 
   <link rel="shortcut icon" href="./assets/images/logo-favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
   <link rel="stylesheet" href="./src/styles/style.css">
-  <script src="./src/scripts/hamburguer.js"></script>
+  
 </head>
 <body>
 
@@ -27,8 +29,18 @@
             </ul>
         </div>
         <div class="login-button">
-            <button><a href="#" class="no-style">Login</a></button>
+          <button><a href="#" class="no-style modal-btn">Login</a></button>
         </div>
+
+        <dialog>
+          <form class="login-form" autocomplete="off">
+            <label class="label-modal">Email</label><input class="input-login" type="password" autocomplete="on">
+            <label class="label-modal">Password</label><input class="input-login" autocomplete="on"><br>
+            <button class=" btn-signin"><a href="#" class="no-style a-signin">Signin</a></button>
+            <p class="signup">Not account? <a href="#" class="no-style signup">Sign up</a></p>
+            <button class="close">Close</button>
+          </form>
+        </dialog>
 
         <div class="mobile-menu-icon">
             <button onclick="menuShow()"><img class="icon" src="./assets/images/menu.png" alt=""></button>
@@ -42,7 +54,7 @@
         </ul>
 
         <div class="login-button">
-            <button><a href="#" class="no-style">Login</a></button>
+          <button><a href="#" class="no-style">Login</a></button>
         </div>
     </div>
   </header>
@@ -113,17 +125,17 @@
         </div>
       </div>
       
-      <form autocomplete="off" id="contact">
+      <form autocomplete="off" id="contact" action="https://formsubmit.co/tassiohfmed@gmail.com" method="POST">
         <legend>Contact Us</legend>
         <fieldset>
           <div class="user">
-            <label>Name:</label><input class="" type="text"><br>
-            <label>Email:</label><input class="" type="password" autocomplete="on">
+            <label>Name:</label><input class="" type="text" name="email "required><br>
+            <label>Email:</label><input class="" autocomplete="on" required>
             <label>City:</label><input class="" autocomplete="on"><br>
           </div>
           <div class="send-message">
             <label>Message:</label><br><textarea class="" cols="35" rows="8"></textarea><br>
-            <input class="btn-form" type="submit" value="Send">
+            <input class="btn-form" type="submit" value="Send" onclick="showToast()">
           </div>
         </fieldset>
       </form>
@@ -131,9 +143,12 @@
 
     <hr class="line"/>
     <span>
-      © 2022 <a class="no-style linkedin" href="https://www.linkedin.com/in/tassiomed98" target="_blank" rel="noreferrer">Tássio M.</a> All Rights Reserved.
+      © 2023 <a class="no-style linkedin" href="https://www.linkedin.com/in/tassiomed98" target="_blank" rel="noreferrer">Tássio M.</a> All Rights Reserved.
     </span>
 
   </footer>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="./src/scripts/hamburguer.js"></script>
+  <script src="./src/scripts/modal.js"></script>
 </body>
 </html>
