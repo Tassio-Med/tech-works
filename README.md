@@ -25,16 +25,16 @@ Logo depois há uma seção que representa o trabalho da empresa em conjunto com
 Por último há um footer com um formulário para contato e link das redes sociais da empresa.
 O footer foi configurado com o [FormSubmit](https://formsubmit.co/) uma plataforma que facilita o envio de mensangens a partir de um formulário para e-mail de destinatários.
 
+Abaixo as imagens são das duas telas em é possível ser redirecionado:
+
 
 <div align="center">
-  <!-- ![Drop Schema](assets/images/readme/blog.png) -->
 
   <img src="assets/images/readme/tela_inicial.png" width="600px">
 
 </div>
 <br>
 <div align="center">
-  <!-- ![Drop Schema](assets/images/readme/blog.png) -->
 
   <img src="assets/images/readme/blog.png" width="600px">
 
@@ -69,12 +69,12 @@ Para a construção visual do projeto foi CSS3 e a paleta de cores do projeto fo
 As cores representadas abaixas estão em HEX na imagem.
 <br>
 
-
 <div align="center">
 
-  ![Drop Schema](assets/images/colors.png)
+  <img src="assets/images/colors.png" width="600px">
 
 </div>
+
 
 ## Autor
 
