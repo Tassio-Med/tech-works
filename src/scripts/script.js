@@ -1,4 +1,4 @@
-const url = "https://jsonplaceholder.typicode.com/posts?_limit=5";
+const url = "https://jsonplaceholder.typicode.com/posts?_limit=6";
 
 const loadingElement = document.querySelector("#loading");
 const postsContainer = document.querySelector("#posts-container");
@@ -20,6 +20,11 @@ async function  getAllPosts() {
     const title = document.createElement("h2")
     const body = document.createElement("p")
     const link = document.createElement("a")
+
+    div.classList.add("box");
+    title.classList.add("title-box");
+    body.classList.add("text-box");
+    link.classList.add("btn-box");
 
     title.innerText = post.title;
     body.innerText = post.body;
