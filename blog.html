@@ -6,20 +6,118 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech Business</title>
 
-  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
-  <link rel="stylesheet" href="./src/styles/style.css">
+  <link rel="shortcut icon" href="./assets/images/logo-favicon.ico" type="image/x-icon"/>
+
+  <link rel="stylesheet" href="./src/styles/header.css">
+  <link rel="stylesheet" href="./src/styles/footer.css">
+  <link rel="stylesheet" href="./src/styles/modal.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+  
 </head>
 <body>
-  <section>
-    <h2>Posts do blog</h2>
-    <div>
-      <h3>Lorem ipsum dolor sit amet</h3>
-      <p id="loading">Carregando....</p>
-      <div id="posts-container"></div>
+
+
+  <header>
+    <nav class="nav-bar">
+ 
+        <a href="#hero" class="no-style">
+          <img src="./assets/images/logo.png" class="logo" alt="Logotipo da página">
+        </a>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#services" class="nav-link no-style">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link no-style">Contact Us</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link no-style"> Blog</a></li>
+            </ul>
+        </div>
+        <div class="login-button">
+          <button><a href="#" class="no-style modal-btn">Login</a></button>
+        </div>
+
+        <dialog>
+          <form class="login-form" autocomplete="off">
+            <label class="label-modal">Email</label><input class="input-login" type="password" autocomplete="on">
+            <label class="label-modal">Password</label><input class="input-login" autocomplete="on"><br>
+            <button class=" btn-signin"><a href="#" class="no-style a-signin">Signin</a></button>
+            <p class="signup">Not account? <a href="#" class="no-style signup">Sign up</a></p>
+            <button class="close">Close</button>
+          </form>
+        </dialog>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="./assets/images/menu.png" alt=""></button>
+        </div>
+
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#services" class="nav-link no-style">Projects</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link no-style">Contact Us</a></li>
+            <li class="nav-item"><a href="#blog.html" class="nav-link no-style">Blog</a></li>
+        </ul>
+
+        <div class="login-button">
+          <button><a href="#" class="no-style modal-btn">Login</a></button>
+        </div>
+        
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="./assets/images/menu.png" alt=""></button>
+        </div>
+
     </div>
-  </section>
-  
-</main>
-<script src="./src/scripts/script.js"></script>
+  </header>
+
+  <main>
+    <section>
+      <h2>Posts do blog</h2>
+      <div>
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <p id="loading">Carregando....</p>
+        <div id="posts-container"></div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+
+    <div class="footer-contact">
+      <div class="social">
+        <h3>Connect with Us</h3>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/" class="no-style" target="_blank"><img class="media" src="assets/images/instagram.png" alt="Ícone do instagram"></a>
+          <a href="https://www.linkedin.com/in/tassiomed98" class="no-style" target="_blank"><img class="media" src="assets/images/linkedin.png" alt="Ícone do Linkedin"></a>
+          <a href="https://www.tumblr.com/login?language=pt_BR" class="no-style" target="_blank"><img class="media" src="assets/images/tumblr.png" alt="Ícone do Tumblr"></a>
+          <a href="https://www.tiktok.com/pt-BR/" class="no-style" target="_blank"><img class="media" src="assets/images/tiktok.png" alt="Ícone do Tiktok"></a>
+          <a href="https://www.youtube.com/" class="no-style" target="_blank"><img class="media" src="assets/images/youtube.png" alt=Ícone do YouTube""></a>
+          <a href="https://pt-br.facebook.com/" class="no-style" target="_blank"><img class="media" src="assets/images/facebook.png" alt="Ícone do Facebook"></a>
+        </div>
+      </div>
+      
+      <form autocomplete="off" id="contact" action="https://formsubmit.co/tassiohfmed@gmail.com" method="POST">
+        <legend>Contact Us</legend>
+        <fieldset>
+          <div class="user">
+            <label class="label">Name</label><input class="input-mobile" type="text" name="email "required><br>
+            <label class="label">Email</label><input class="input-mobile" autocomplete="on" required>
+            <label class="label">City</label><input class="input-mobile" autocomplete="on"><br>
+          </div>
+          <div class="send-message">
+            <label class="label">Message</label><br><textarea class="input-mobile" cols="35" rows="8"></textarea><br>
+            <input class="btn-form" type="submit" value="Send">
+          </div
+        </fieldset>
+      </form>
+    </div>
+
+    <hr class="line"/>
+    <span>
+      © 2023 <a class="no-style linkedin" href="https://www.linkedin.com/in/tassiomed98" target="_blank" rel="noreferrer">Tássio M.</a> All Rights Reserved.
+    </span>
+
+  </footer>
+  <script src="./src/scripts/script.js"></script>
+  <script src="./src/scripts/hamburguer.js"></script>
+  <script src="./src/scripts/modal.js"></script>
 </body>
 </html>
