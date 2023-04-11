@@ -65,6 +65,8 @@ Abaixo as imagens são das duas telas em que que é possível ser redirecionado:
 
  <br>
 
+
+## API
 Outro ponto que acredito ser relevante é que adicionei uma página de Blog, onde seriam alguns artigos produzidos pela empresa. Toda as notícias foram puxadas da api [JSON Placeholder](https://jsonplaceholder.typicode.com/), uma API simples com texto em Lorem Ipsum.
 
 No código adicionei um limite de 6 elementos:
