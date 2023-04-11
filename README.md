@@ -8,7 +8,7 @@ As principais habilidades colocadas prática nesse projeto foram:
 
 * **Javascript**.
 * **HTML5**
-* **CSS#**;
+* **CSS3**;
 * **Responsividade**;
 * **Deploy com Vercel**;
 * **ESLint**;
