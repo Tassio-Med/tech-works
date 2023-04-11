@@ -47,7 +47,7 @@ Logo depois há uma seção que representa o trabalho da empresa em conjunto com
 Por último há um footer com um formulário para contato e link das redes sociais da empresa.
 O footer foi configurado com o [FormSubmit](https://formsubmit.co/) uma plataforma que facilita o envio de mensangens a partir de um formulário para e-mail de destinatários.
 
-Abaixo as imagens são das duas telas em que é possível ser redirecionado:
+Abaixo as imagens são das duas telas em que que é possível ser redirecionado:
 
 <br>
 
