@@ -26,7 +26,18 @@ Por último há um footer com um formulário para contato e link das redes socia
 O footer foi configurado com o [FormSubmit](https://formsubmit.co/) uma plataforma que facilita o envio de mensangens a partir de um formulário para e-mail de destinatários.
 
 
+<div align="left">
+  <!-- ![Drop Schema](assets/images/readme/blog.png) -->
 
+  <img src="assets/images/readme/tela_inicial.png" width="300px">
+
+</div>
+<div align="right">
+  <!-- ![Drop Schema](assets/images/readme/blog.png) -->
+
+  <img src="assets/images/readme/blog.png" width="300px">
+
+</div>
 
 ## Instalação
 
@@ -38,6 +49,11 @@ Para testar o projeto na sua máquina pessoal siga os seguintes passos:
 git@github.com:Tassio-Med/tech-works.git
 ```
 
+⚠️ **Importante** ⚠️:
+
+  - O projeto possui como dependência a biblioteca `toastify-js`, porém ela ainda não está em uso neste projeto;
+
+
 2. Instale os pacotes npm:
 
 ```bash
@@ -47,9 +63,10 @@ npm install
 
 ## Design
 
-Para a construção visual do projeto foi utilizado SASS e a biblioteca React-icons para adicionar ícones SVG. 
-No projeto foi utilizada a seguinte paleta de cores:
+Para a construção visual do projeto foi CSS3 e a paleta de cores do projeto foi construída na plataforma [Coolors](https://coolors.co/). A minha meta pessoal era desenvolver um botão para o tema dark, mas por conta do tempo decidi manter o projeto com cores mais escuras.
 
+As cores representadas abaixas estão em HEX na imagem.
+<br>
 
 
 <div align="center">
