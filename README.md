@@ -32,6 +32,7 @@ O footer foi configurado com o [FormSubmit](https://formsubmit.co/) uma platafor
   <img src="assets/images/readme/tela_inicial.png" width="600px">
 
 </div>
+<br>
 <div align="center">
   <!-- ![Drop Schema](assets/images/readme/blog.png) -->
 
